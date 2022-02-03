@@ -35,7 +35,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private LinearLayout layMenuOferta, layMenuColeta, layMenuEntrega;
     private RelativeLayout layColetaButton, layEntregaButton, layMenu;
     private TextView txtEnderecoOferta, txtEnderecoColeta, txtEntrega;
-    private Button btnRejeitar, btnAceitar, btnColetar, btnEntregar, btnDebugAction;
+    private Button btnRejeitar, btnAceitar, btnColetar, btnEntregar, btnDebugAction, btnPerfil;
 
     Handler handler;
 
@@ -96,6 +96,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         dLocRet = new DebugLocationRetriever();
         dLocRet.setLatLng(-22.904093, -43.175293);
+
+        // Botão para ir ao Perfil
+        btnPerfil = findViewById(R.id.btnPerfil);
+        btnPerfil.setOnClickListener(view -> onProfileAction());
+    }
+
+    private void onProfileAction() {
+
     }
 
     /**

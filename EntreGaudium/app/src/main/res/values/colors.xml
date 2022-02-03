@@ -3,4 +3,7 @@
     <color name="colorPrimary">#39ABFD</color>
     <color name="colorPrimaryDark">#2B75FD</color>
     <color name="colorAccent">#FFFFFF</color>
+    <color name="cargoColor">#DFE9F7</color>
+    <color name="topProfile">#CC2B76C9</color>
+    <color name="bottomProfile">#2E91FE</color>
 </resources>
