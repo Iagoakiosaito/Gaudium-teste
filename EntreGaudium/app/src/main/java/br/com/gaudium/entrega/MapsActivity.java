@@ -2,6 +2,7 @@ package br.com.gaudium.entrega;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
@@ -103,7 +104,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void onProfileAction() {
-
+        Intent intent = new Intent(MapsActivity.this, ProfileActivity.class);
+        startActivity(intent);
     }
 
     /**

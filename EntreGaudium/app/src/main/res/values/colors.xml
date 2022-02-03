@@ -6,4 +6,5 @@
     <color name="cargoColor">#DFE9F7</color>
     <color name="topProfile">#CC2B76C9</color>
     <color name="bottomProfile">#2E91FE</color>
+    <color name="descripColor">#ECF4FF</color>
 </resources>
